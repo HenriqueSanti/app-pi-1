@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>📋 Minha Lista de Tarefas</h1>
+    <p class="subtitulo">App de teste: Node + Express + SQLite + Frontend estatico</p>
+
+    <form id="form-tarefa">
+      <input type="text" id="input-titulo" placeholder="O que precisa ser feito?" autocomplete="off" required />
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="lista-tarefas"></ul>
+
+    <p id="status" class="status"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
